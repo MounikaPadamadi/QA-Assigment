@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="151372" started-at="2023-03-03T07:48:41Z" finished-at="2023-03-03T07:51:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="151372" started-at="2023-03-03T07:48:41Z" finished-at="2023-03-03T07:51:13Z">
+      <class name="tests.PlanitTests">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:tests.PlanitTests@61832929]" name="setupTest" is-config="true" duration-ms="4082" started-at="2023-03-03T07:48:41Z" finished-at="2023-03-03T07:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="2842" started-at="2023-03-03T07:48:45Z" finished-at="2023-03-03T07:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:tests.PlanitTests@61832929]" name="test1" duration-ms="98105" started-at="2023-03-03T07:48:48Z" finished-at="2023-03-03T07:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="1783" started-at="2023-03-03T07:50:27Z" finished-at="2023-03-03T07:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PlanitTests@61832929]" name="test2" duration-ms="8871" started-at="2023-03-03T07:50:29Z" data-provider="mandatoryFields" finished-at="2023-03-03T07:50:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Message 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="1681" started-at="2023-03-03T07:50:38Z" finished-at="2023-03-03T07:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PlanitTests@61832929]" name="test2" duration-ms="7899" started-at="2023-03-03T07:50:39Z" data-provider="mandatoryFields" finished-at="2023-03-03T07:50:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Message 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="1679" started-at="2023-03-03T07:50:47Z" finished-at="2023-03-03T07:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PlanitTests@61832929]" name="test2" duration-ms="7465" started-at="2023-03-03T07:50:49Z" data-provider="mandatoryFields" finished-at="2023-03-03T07:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Message 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="1562" started-at="2023-03-03T07:50:56Z" finished-at="2023-03-03T07:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PlanitTests@61832929]" name="test2" duration-ms="4535" started-at="2023-03-03T07:50:58Z" data-provider="mandatoryFields" finished-at="2023-03-03T07:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tracy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test4@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Message 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="1579" started-at="2023-03-03T07:51:02Z" finished-at="2023-03-03T07:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PlanitTests@61832929]" name="test2" duration-ms="4672" started-at="2023-03-03T07:51:04Z" data-provider="mandatoryFields" finished-at="2023-03-03T07:51:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test5@test.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Message 5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:tests.PlanitTests@61832929]" name="invokeBrowser" is-config="true" duration-ms="1340" started-at="2023-03-03T07:51:09Z" finished-at="2023-03-03T07:51:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:tests.PlanitTests@61832929]" name="test3" duration-ms="1642" started-at="2023-03-03T07:51:10Z" finished-at="2023-03-03T07:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:tests.PlanitTests@61832929]" name="TearDown" is-config="true" duration-ms="1004" started-at="2023-03-03T07:51:12Z" finished-at="2023-03-03T07:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- tests.PlanitTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
